@@ -173,7 +173,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run --record --key aa3af535-0dcd-4911-a557-98d7b999623c"
   },
   "author": "",
   "license": "ISC"
