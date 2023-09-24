@@ -6,6 +6,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     chromeWebSecurity: false,
+    projectId: "bn3585",
     experimentalSessionAndOrigin: true,
     defaultCommandTimeout: 10000,
     pageLoadTimeout: 120000,
