@@ -1,19 +1,19 @@
-import { HeaderMenu } from "../Components/header.menu";
+import { HeaderMenu } from "./Solutions/header.menu";
 import { SearchBar } from "../Components/search-bar";
 export class HomePage {
-  get getHeaderMenu() {
+  getHeaderMenu() {
     return new HeaderMenu();
   }
 
-  get getSearchBar() {
+  getSearchBar() {
     return new SearchBar();
   }
 
-  get tryItForFreeButton() {
+  tryItForFreeButton() {
     return cy.contains("button", "Try it free");
   }
 
-  get requestADemoButton() {
+  requestADemoButton() {
     return cy.contains("button", "Request a demo");
   }
 }

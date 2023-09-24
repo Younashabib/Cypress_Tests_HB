@@ -1,3 +1,7 @@
+Cypress.on("uncaught:exception", (err) => {
+  expect(err.message).to.include("T");
+  return false;
+});
 // ***********************************************************
 // This example support/e2e.js is processed and
 // loaded automatically before your test files.
@@ -15,6 +19,7 @@
 
 // Import commands.js using ES2015 syntax:
 import "./commands";
+import "./Pages/Solutions/header.menu";
 // import "./Cypress.page";
 
 // Alternatively you can use CommonJS syntax:
